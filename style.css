@@ -1,0 +1,95 @@
+body {
+    font-family:"Montserrat";
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header .name {
+    font-weight: bold;
+    font-size: 18px;
+}
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+nav a.signup {
+    color: blue;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 24px;
+}
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+.card button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+footer {
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
