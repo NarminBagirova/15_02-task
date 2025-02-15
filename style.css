@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    padding: 10px 20px;
+    padding: 30px 20px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -36,12 +36,6 @@ nav a.signup {
 .pricing {
     margin-top: 50px;
     text-align: center;
-}
-
-.card-container {
-    display: inline-block;
-    vertical-align: top;
-    margin: 10px;
 }
 
 .card {
@@ -114,7 +108,7 @@ footer {
 }
 
 .column ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     margin: 0;
 }
